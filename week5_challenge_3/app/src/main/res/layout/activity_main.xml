@@ -4,40 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity2">
+    tools:context=".Activity1">
 
     <TextView
-        android:id="@+id/act2_firstTv"
+        android:id="@+id/act1_firstTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Message Received"
         android:textStyle="bold"
         android:textSize="24dp"
         android:layout_margin="15dp">
 
     </TextView>
     <TextView
-        android:id="@+id/act2_secondTv"
+        android:id="@+id/act1_secondTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Message "
         android:textSize="20dp"
-        android:layout_below="@+id/act2_firstTv"
+        android:layout_below="@+id/act1_firstTv"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp">
 
     </TextView>
 
     <EditText
-        android:id="@+id/act2_editText"
+        android:id="@+id/act1_editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/act2_button">
+        android:layout_above="@+id/act1_button">
 
     </EditText>
 
     <Button
-        android:id="@+id/act2_button"
+        android:id="@+id/act1_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
