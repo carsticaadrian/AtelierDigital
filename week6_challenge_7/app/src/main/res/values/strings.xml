@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">week6_challenge_7</string>
+    <string name="tab_text_1">Movie</string>
+    <string name="tab_text_2">Pet</string>
+    <string name="tab_text_3">Food</string>
+</resources>
